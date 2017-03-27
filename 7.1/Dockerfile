@@ -5,6 +5,9 @@ RUN apt-get update && apt-get install -y \
 		zip \
 		unzip
 
+RUN pear config-set http_proxy $http_proxy
+
+RUN pecl install xdebug && docker-php-ext-enable xdebug
 
 RUN curl --location --output /usr/local/bin/composer https://getcomposer.org/composer.phar && \
 		chmod a+x /usr/local/bin/composer && \
