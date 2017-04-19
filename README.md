@@ -1,9 +1,5 @@
-# php-tools Docker image
+# dockerfiles
 
-PHP testing, building and deploy tools.
+My Docker recipes collection.
 
-- XDebug
-- Composer
-- PHPUnit
-- PHP_CodeSniffer
-- Deployer
+[https://hub.docker.com/r/rogeriolino/](https://hub.docker.com/r/rogeriolino/)
