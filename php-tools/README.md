@@ -2,6 +2,7 @@
 
 PHP testing, building and deploy tools.
 
+- PHP 7.1
 - XDebug
 - Composer
 - PHPUnit
