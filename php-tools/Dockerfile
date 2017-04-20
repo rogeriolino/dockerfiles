@@ -5,7 +5,8 @@ RUN apt-get update && apt-get install -y \
 		zip \
 		unzip
 
-RUN pear config-set http_proxy $http_proxy
+# Uncomment the line below if you're using http proxy
+#RUN pear config-set http_proxy $http_proxy
 
 RUN pecl install xdebug && docker-php-ext-enable xdebug
 
